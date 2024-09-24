@@ -1,0 +1,11 @@
+// Here you can add other styles
+.table-actions{   
+    padding: 3px;
+    width: 30px;
+    height: 30px;
+    line-height: 0;
+    &::before{
+        margin-right: 0 !important;
+        border: none !important;
+    }
+}
